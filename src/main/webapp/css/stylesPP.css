@@ -1,0 +1,77 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21/03/2024, 3:38:02 p. m.
+    Author     : juand
+*/
+/* Ajustar el carrusel para que se vea más profesional */
+/* Estilos para el body */
+body {
+    font-family: Arial, sans-serif; /* Utiliza una fuente legible y profesional */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background: #f4f4f4;
+}
+
+/* Estilos para la navbar */
+.navbar {
+    background-color: #ffffff; /* Fondo blanco */
+    border-bottom: 1px solid #dddddd; /* Borde inferior gris claro */
+    padding: 10px 0; /* Espaciado interno en la parte superior e inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Tamaño de fuente más grande para el logo */
+    font-weight: bold; /* Texto en negrita */
+    color: #333333; /* Color de texto oscuro */
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px; /* Tamaño de fuente para los enlaces de navegación */
+    color: #555555; /* Color de texto gris */
+    margin-right: 20px; /* Espaciado entre enlaces */
+}
+
+.navbar-nav .nav-link.active {
+    color: #000000; /* Color de texto negro para el enlace activo */
+}
+.social-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 5px;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.social-button.whatsapp { background-color: #25D366; }
+.social-button.instagram { background-color: #E4405F; }
+.social-button.facebook { background-color: #3B5998; }
+
+.social-button:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+.navbar-center-links {
+    flex-grow: 1; /* Hace que el contenedor crezca y ocupe el espacio disponible */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    display: flex; /* Activa Flexbox */
+}
+
+
+
+

@@ -1,0 +1,61 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7/03/2024, 9:14:24 a. m.
+    Author     : juand
+*/
+body {
+    background: #f4f4f4 ;/* De azul claro (LightBlue) a azul oscuro (DarkBlue) */
+}
+
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 30%; 
+            margin: 8% auto;
+            padding: 20px; 
+            border-radius: 5px; 
+            background-color: #fff; /* Fondo blanco del contenedor */
+            border: 5px solid transparent; /* Borde transparente inicial */
+            animation: spinBorder 5s normal infinite; /* Animación de rotación del borde */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .imgCar {
+            text-align: center;
+            max-width: 100%; /* La imagen no superará el ancho del contenedor */
+            height: auto; /* Para mantener la proporción de la imagen */
+        }
+
+        @keyframes spinBorder {
+            0% {
+                border-color: #1D3759;
+            }
+            25% {
+                border-color: #95A7BF;
+            }
+            50% {
+                border-color: #D9D9D9;
+            }
+            75% {
+                border-color: #F2CB57;
+            }
+            100% {
+                border-color: #40241A;
+            }
+        }
+
+        h1 {
+            color: #D9411E;
+        }
+
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .register-link{
+            text-align: center;
+        }
